@@ -17,7 +17,7 @@ RUN \
     apt-get install build-essential cmake git pkg-config -y && \
 
     # step 3
-    apt-get install libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev -y && \
+    apt-get install libjpeg62-turbo-dev libtiff5-dev libjasper-dev libpng12-dev -y && \
 
     # step 4
     apt-get install libgtk2.0-dev -y && \
